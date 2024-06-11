@@ -1,0 +1,6 @@
+$ORIGIN domain.net.
+mail                  14400 A     192.168.222.25
+vpn                      60 A     192.168.222.23
+webapp                   60 A     192.168.222.15
+webapp                   60 A     192.168.222.22
+www                   43200 CNAME domain.net.
