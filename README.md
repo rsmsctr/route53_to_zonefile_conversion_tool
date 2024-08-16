@@ -15,6 +15,12 @@ The creation of this tool was to automate a way to take all zones within route53
 # Resources:
 
 https://groups.google.com/g/dnspython-users/c/-jivSPKIElo
+
+
 https://agiletesting.blogspot.com/2005/08/managing-dns-zone-files-with-dnspython.html
+
+
 https://dnspython.readthedocs.io/en/latest/manual.html
+
+
 and my good bud gpt for the regex escape sequence function. 
