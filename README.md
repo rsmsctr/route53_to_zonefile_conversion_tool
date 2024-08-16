@@ -1,4 +1,4 @@
-# Route53 to Zonefile Conversion tool.
+# Route53 to Zonefile Conversion Tool
 
 The creation of this tool was to automate a way to take all zones within route53 and convert them into usable BIND zone files. That way you could import them into any DNS provider that supports uploads. Amazon does not have a way to do this with it's boto3 toolkit. Nor do I think it's really a priority for them to create a tool that facilitates the ease of maneuverability away from their walled garden. 
 
