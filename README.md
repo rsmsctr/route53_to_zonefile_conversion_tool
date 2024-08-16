@@ -22,6 +22,3 @@ https://agiletesting.blogspot.com/2005/08/managing-dns-zone-files-with-dnspython
 
 
 https://dnspython.readthedocs.io/en/latest/manual.html
-
-
-and my good bud gpt for the regex escape sequence function and helping me learn general python stuff
