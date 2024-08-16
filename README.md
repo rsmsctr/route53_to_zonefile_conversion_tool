@@ -11,6 +11,7 @@ The creation of this tool was to automate a way to take all zones within route53
 5) If the route53 record contains a subdomain that refers to an AWS resource, it will be filtered out and NOT applied to the BIND zone file. This includes all of its subdomains. The list at the end of the script will print list of these subdomains. 
 6) The boto client will only return up to 300 recordsets for a single zone per request. You can add logic to make it continue if needed. 
 7) The boto client will only return up to 100 zones per request. You can add logic to make it continue if needed.
+8) I had the script skip adding the `NS` and `SOA` records. That's a me thing, I didn't need those for what I was doing (transerring domains to a new provider).
 
 # Resources:
 
